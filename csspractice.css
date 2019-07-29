@@ -1,0 +1,48 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    
+}
+
+body{
+    background-color: aquamarine;
+    font-family: sans-serif;
+}
+
+
+ul{
+    
+    list-style: none;
+    text-align: center;
+
+    
+}
+
+ ul li{
+    background-color: yellow;
+    padding: 3px 0 0 3px;
+    width: 150px;
+    margin: 5px;
+    border-bottom: 4px solid grey;
+    display: inline-block;
+    text-align: center;
+}
+
+
+
+a:visited{
+    color: green;
+}
+
+li a{
+   
+    text-decoration: none;
+    color: black;
+}
+ ul li:hover{
+    background-color: lightgreen;
+    color: white;
+}
+ul a:hover{
+    color: white;
+}
